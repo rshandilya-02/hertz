@@ -1,0 +1,15 @@
+import { PageHeader } from "@/components/page-header";
+
+export function TextToSpeechLayout({
+    children
+}:{
+    children: React.ReactNode
+}) {
+    return (
+        <div className="flex  h-screen min-h-0 flex-col overflow-hidden">
+            <PageHeader title="Text to Speech">
+            </PageHeader>
+                {children}
+        </div>
+    )
+}
